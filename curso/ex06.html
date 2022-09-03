@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: blue;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando DOM</h1>
+    <hr>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar <strong>DOM</strong> em JavaScript</p>
+    <p>querySelector - teste</p>
+    <div id="d1">frase d1</div>
+    <div id="d2">frase d2</div>
+    
+    
+    <script>
+
+        var p = document.getElementsByTagName('p')[1]
+        document.write('Está escrito assim:  ' + p.innerHTML)
+        p.style.color = 'red'
+        
+        var d1 = document.getElementById('d1')
+        d1.style.background = 'green'
+
+        var d2 = document.getElementById('d2')
+        d2.style.background = 'pink'
+
+        var query = document.querySelector('p')
+        query.style.background = 'black' 
+
+        document.write(document.URL)
+
+    </script>
+    
+</body>
+</html>
