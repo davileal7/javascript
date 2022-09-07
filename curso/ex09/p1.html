@@ -8,21 +8,23 @@
     <link rel="stylesheet" href="style.css">
     <style>
         body {
-            background-image: url('radar.jpg');
-            background-size: 1500px;
-            background-repeat: no-repeat;
-            
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            color: white;
+            background-image: url('imagens/velocimetro.jpg');
         
         }
-        
-
+        strong {
+            color: red;
+        }
     </style>
 </head>
 <body>
-    <h1>Sistemas de Multa</h1>
+    <h1>Sistema de Multa</h1>
+    <hr>
     Velocidade do carro:
     <input type="number" name="vel" id="vel"> Km/h
-    <input type="button" value="verificar" onclick="calcular()">
+    <p><input type="button" value="verificar" onclick="calcular()"></p>
     <div id="res">
     </div>
     <script>
@@ -31,7 +33,7 @@
             var vel = Number(txt.value)
             res.innerHTML = `<p>Sua velocidade atual é ${vel}Km/h<p>`
             if (vel > 60) {
-                res.innerHTML += `<p>Você dirijiu acima da velocidade, recebe uma <strong>MULTADO</strong>!<p>`
+                res.innerHTML += `<p>Você dirijiu acima da velocidade, recebe uma <strong>MULTA</strong><p>`
             }      
             res.innerHTML += '<p>Dirija com cuidado!<p>'   
         }
