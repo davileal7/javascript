@@ -1,3 +1,5 @@
+//CONDIÇÃO COMPOSTA
+
 var idade = 70
 if (idade < 16) {
     console.log('Não vota')
@@ -12,14 +14,14 @@ var hora = agora.getHours()
 if (hora < 12) {
     console.log('Bom Dia!')
 } else if (hora <= 18) {
-    console.log('Boa Tarde')
+    console.log('Boa Tarde!')
 } else  {
-    console.log('Boa Noite')
+    console.log('Boa Noite!')
 } console.log(`Agora são ${hora}`)
 
 var agora = new Date
 var diaSem = agora.getDay()
-console.log(`Hoje é ${}`)
+console.log(`Hoje é ${agora}`)
 
 switch(diaSem) {
     case 0:
