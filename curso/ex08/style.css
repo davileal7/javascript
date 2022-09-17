@@ -1,0 +1,102 @@
+body {
+           
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    background: url('calculadora.jpg')
+    center center no-repeat fixed;
+    background-size: cover;
+
+}
+h1 {
+    color: white;
+    background-color: salmon;
+    border-radius: 5px;
+}
+h2 {
+    font-size: larger;
+}
+
+p {
+    font-size: x-large;
+}
+
+section {
+    text-align: center;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.527);
+
+}
+div {
+    font-size: 30px;
+}
+
+input {
+    font: normal 18pt Arial;
+    width: 100px;
+}
+
+input#txtn1 {
+    width: 40px;
+}
+
+input#txtn2 {
+    width: 40px;
+}
+
+input#txtn3 {
+    width: 40px;
+}
+
+input#txtn4 {
+    width: 40px;
+}
+
+input#txtn5 {
+    width: 40px;
+}
+
+input#txtn6 {
+    width: 40px;
+}
+
+input#txtn7 {
+    width: 40px;
+}
+
+input#txtn8 {
+    width: 40px;
+}
+
+input#adi{
+    color: white;
+    background-color:green;
+    width: 110px;
+}
+input#sub{
+    color: white;
+    background-color: red;
+    width: 110px;
+}
+
+input#mult{
+    color: white;
+    background-color: blue;
+    width: 140px;
+}
+
+input#dv{
+    color: white;
+    background-color: black;
+    width: 110px;
+}
+div#res {
+    color: white;
+    margin-top: 30px;
+    background-color: salmon;
+    border-radius: 5px;
+    
+}
