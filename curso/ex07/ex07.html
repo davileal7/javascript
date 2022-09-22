@@ -8,7 +8,7 @@
     <style>
         div { 
             font: normal 20pt 'Arial';
-            background-color: green;
+            background-color: rgb(0, 2, 0);
             color: white;
             height: 200px;
             width: 200px;
@@ -19,7 +19,8 @@
     </style>
 </head>
 <body>
-    <h1>EVENTOS</h1><hr>
+    <h1>EVENTOS</h1>
+    <hr>
 
     <div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
         Interaja...
@@ -27,19 +28,20 @@
         
     <script>
         var area = document.getElementById('area') //selecionado area
-        area.addEventListener('click', clicar) //ligação entre o html e javascript//
+        area.addEventListener('click', clicar)    //ligação entre o html e javascript//
         area.addEventListener('mouseenter',entrar)
         area.addEventListener('mouseout',sair)
 
 
         function clicar() {
-            area.innerText = 'CLICOU!!!'
+            area.innerText = 'CLICOU'
             area.style.background = 'red'
+        
             
         }
 
         function entrar() {
-            area.innerText = 'ENTROU!!!'
+            area.innerText = 'ENTROU'
             area.style.background = 'orange'
             
         }
@@ -47,6 +49,7 @@
         function sair() {
             area.innerText = 'SAIU'
             area.style.background = 'green'
+        
         }
     </script>
     
