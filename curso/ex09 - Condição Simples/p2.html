@@ -9,7 +9,7 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
             font-size: large;
-            background-color: darkturquoise;
+            color: rgba(240, 240, 240, 0.904);
             background-image: url('imagens/mapa.jpg');
         }
         
@@ -38,7 +38,7 @@
             var país = (txt2.value)
             var nome = (txt1.value)
             mora.innerHTML = `<p>Olá, <strong>${nome}</strong> tudo bem!</p>`
-            mora.innerHTML += `<p>Você mora na ${país}.</p>`
+            mora.innerHTML += `<p>Você mora: ${país}</p>`
 
             if (país != 'Brasil') {
                 mora.innerHTML += 'Você é estrangeiro.'  // += para acrescentar
