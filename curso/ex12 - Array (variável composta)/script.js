@@ -1,4 +1,4 @@
-var num = [5,8,2,9,3]
+var num = [5,8,2,9,3]     //array []
 console.log(num)
 console.log(`O vetor tem ${num.length} posições.`)
 console.log(`o primeiro valor do vetor é ${num[0]}`)

@@ -19,19 +19,22 @@
             color: yellow;
         
         }
-
         
     </style>
 </head>
 <body>
-   <h1>Hello World!</h1>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias eligendi, praesentium tenetur necessitatibus iure facilis, expedita exercitationem voluptatem sunt, amet non. Asperiores officiis voluptate repellat quibusdam hic facere, minima rem!</p>
+   <h1>FORMATAÇÃO</h1>
+   <hr>
+  <p>Duas formatações diferentes:</p>
    <script>
     var n1 = Number(window.prompt('Digite um número'))
     var n2 = Number(window.prompt('Digite outro número'))
     var s = n1 + n2
-    window.alert(`A soma entre ${n1} e ${n2} é igual a ${s}`) // Concatenação
-    //(number + number) para adição
+    document.write(`1° A soma entre ${n1} e ${n2} é igual a ${s}<br>`)            // Concatenação (formatação)``
+    document.write('2° A soma entre ' + n1 + ' e ' + n2 + ' é igual a ' + s + '<br>')
+     
+    
+     //(number + number) para adição
     //(string + string) para concatenação
 
    </script>
