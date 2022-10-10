@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testes</title>
+    <style>
+        body {
+            color: white;
+            background-color: black;
+        }
+
+        p {
+            background-color: red;
+            width: 100px;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>TESTE</h1>
+    <p id="res">
+
+    </p>
+
+    <div id="link">
+        <a href="https://www.mtgtop8.com/format?f=MO" target="_blank">magic</a>
+    </div>
+    
+    
+    
+    
+    <script>
+        var magic = document.getElementById('link') 
+        var res = document.getElementById('res')
+        var jogos = window.prompt('qual jogo')
+            
+
+            if (jogos == 'Resident Evil 1') {
+               res.innerHTML = 'the best'
+
+            } else if (jogos == 'Dino Crises') {
+                document.write('Bom também!!!')
+
+            } else if (jogos == 'Resident Evil 5') { 
+                document.write('jogo ruim')
+            } else {
+                document.write('fala um jogo aeeee')
+            } 
+    </script>
+</body>
+</html>
