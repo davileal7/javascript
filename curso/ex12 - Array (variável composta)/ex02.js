@@ -6,9 +6,9 @@ var pos = num.indexOf(8)
 console.log(`O valor 8 está na ${pos}° posição`)
 
 
-num[3] = 9 //acrescentar em 3°
-num.push(7) //acrescentar em último
-num.sort() //arrumar em crescente
+num[3] = 9     //acrescentar em 3°
+num.push(7)    //acrescentar em último
+num.sort()     //arrumar em crescente
 console.log(num)
 
 

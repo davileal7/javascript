@@ -5,4 +5,4 @@ function parimp(n) {
         return'impar'
     }
 }
-console.log(parimp(17))
+console.log(parimp(10))

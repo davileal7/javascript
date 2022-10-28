@@ -20,12 +20,13 @@ if (hora < 12) {
     console.log('Boa Noite!')
 } console.log(`Agora são ${hora}`)
 
-var agora = new Date
-var diaSem = agora.getDay()
-console.log(`Hoje é ${diaSem}`)
+
 
 
 // SWITCH
+var agora = new Date
+var diaSem = agora.getDay()
+console.log(`Hoje é ${agora}`)
 switch(diaSem) {
     case 0:
         console.log('Domingo')
