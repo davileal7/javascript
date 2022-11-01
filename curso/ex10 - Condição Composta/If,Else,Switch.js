@@ -21,8 +21,6 @@ if (hora < 12) {
 } console.log(`Agora são ${hora}`)
 
 
-
-
 // SWITCH
 var agora = new Date
 var diaSem = agora.getDay()

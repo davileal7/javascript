@@ -16,17 +16,26 @@
     </style>
 </head>
 <body>
-    <h1>Que país você mora?</h1>
-    <hr>
-    <p>
-        Qual é o seu nome: 
-        <input type="text" name="nome" id="nome">
-    </p>
-    <p>
-        Que país você mora: 
-        <input type="text" name="país" id="país">
-        <input type="button" value="verificar" onclick="checar()">
-    </p>
+    <form action="" autocomplete="off">
+        <h1>Que país você mora?</h1>
+        <hr>
+        <p>
+            Qual é o seu nome:
+            <input type="text" name="nome" id="nome">
+        </p>
+        <p>
+            Que país você mora:
+            <input type="text" name="país" id="país">
+        </p>
+        <p>
+            <input type="button" value="Verificar" onclick="checar()">
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+
+    
     <div id="mora">
 
     </div>
@@ -48,7 +57,6 @@
                 mora.innerHTML += 'Você é Brasileiro'
             }
         }
-        
     </script>
 
 
