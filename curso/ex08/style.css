@@ -75,23 +75,29 @@ input#adi{
     color: white;
     background-color:green;
     width: 110px;
+    text-align: center;
+    cursor: pointer;
 }
 input#sub{
     color: white;
     background-color: red;
     width: 110px;
+    cursor: pointer;
 }
 
 input#mult{
     color: white;
     background-color: blue;
     width: 140px;
+    cursor: pointer;
 }
 
 input#dv{
     color: white;
     background-color: black;
     width: 110px;
+    text-align: center;
+    cursor: pointer;
 }
 div#res {
     color: white;

@@ -1,0 +1,34 @@
+body {
+    color: white;
+    width: 95vw;   /*View Widht*/
+    height: 110vh; /*View Height*/
+    background-image: url('ps.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    
+
+}
+/*#container {
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    background: url('ps.jpg');
+    background-size: cover;
+}*/
+
+div#res {
+    text-align: center;
+    background-color: red;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+div#link {
+    background-color: rgb(69, 174, 69);
+    width: 80px;
+}

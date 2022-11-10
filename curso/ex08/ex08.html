@@ -14,26 +14,31 @@
         <h1>Mini Calculadora</h1>
         <h2>+ - x /</h2>
         <hr>
-        <p>
-            <input type="number" name="txtn1" id="txtn1"> +
-            <input type="number" name="txtn2" id="txtn2">
-            <input type="buttom" value="Adição" id="adi" onclick="adição()">
-        </p>
-        <p>
-            <input type="number" name="txtn3" id="txtn3"> -
-            <input type="number" name="txtn4" id="txtn4">
-            <input type="buttom" value="Subtração" id="sub" onclick="subtração()">
-        </p>
-        <p>
-            <input type="number" name="txtn1" id="txtn5"> x
-            <input type="number" name="txtn2" id="txtn6">
-            <input type="buttom" value="Multiplicação" id="mult" onclick="multiplicação()">
-        </p>
-        <p>
-            <input type="number" name="txtn1" id="txtn7"> /
-            <input type="number" name="txtn2" id="txtn8">
-            <input type="buttom" value="Divisão" id="dv" onclick="divisão()">
-        </p>
+        <form action="">
+            <p>
+                <input type="number" name="txtn1" id="txtn1"> +
+                <input type="number" name="txtn2" id="txtn2">
+                <input type="buttom" value="Adição" id="adi" onclick="adição()">
+            </p>
+            <p>
+                <input type="number" name="txtn3" id="txtn3"> -
+                <input type="number" name="txtn4" id="txtn4">
+                <input type="buttom" value="Subtração" id="sub" onclick="subtração()">
+            </p>
+            <p>
+                <input type="number" name="txtn1" id="txtn5"> x
+                <input type="number" name="txtn2" id="txtn6">
+                <input type="buttom" value="Multiplicação" id="mult" onclick="multiplicação()">
+            </p>
+            <p>
+                <input type="number" name="txtn1" id="txtn7"> /
+                <input type="number" name="txtn2" id="txtn8">
+                <input type="buttom" value="Divisão" id="dv" onclick="divisão()">
+            </p>
+            <p>
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
         <hr>
         <div id="res">
         Resultado:

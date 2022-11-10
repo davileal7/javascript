@@ -8,7 +8,6 @@ function clicar() {
     area.innerText = 'CLICOU'
     area.style.background = 'red'
 
-    
 }
 
 function entrar() {

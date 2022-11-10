@@ -1,5 +1,5 @@
 var p = document.getElementsByTagName('p')[1]
-document.write(`1 Está escrito assim:  ${p.innerHTML} <br/>`) 
+document.write(`1 Está escrito assim: ${p.innerHTML} <br/>`) 
 document.write(`2 Está escrito assim: ${p.innerHTML}`)
 
 
@@ -12,5 +12,5 @@ var d1 = document.getElementById('d1')
 d1.style.background = 'green'
 
 var d2 = document.getElementById('d2')
-d2.style.background = 'orange'
+d2.style.background = 'red'
 

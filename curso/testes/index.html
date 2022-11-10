@@ -1,53 +1,36 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Testes</title>
-    <style>
-        body {
-            color: white;
-            background-color: black;
-        }
-
-        p {
-            background-color: red;
-            width: 100px;
-            
-        }
-    </style>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Testes</title>
 </head>
 <body>
-    <h1>TESTE</h1>
-    <p id="res">
+    <div id="container">
+    
+    <h1>TESTE 01</h1>
+    <hr>
+    <form action="" autocomplete="off">
+        <label for="op1">
+            Jogo:<input type="text" name="op" id="op1">
+        </label>
+        <input type="button" value="Enviar" onclick="clicar()" id="click">
 
-    </p>
+    </form>
+
+    <div id="res">
+        
+    </div>
+   
 
     <div id="link">
         <a href="https://www.mtgtop8.com/format?f=MO" target="_blank">magic</a>
     </div>
     
-    
-    
-    
-    <script>
-        var magic = document.getElementById('link') 
-        var res = document.getElementById('res')
-        var jogos = window.prompt('qual jogo')
-            
+    <script src="interação.js"></script>
 
-            if (jogos == 'Resident Evil 1') {
-               res.innerHTML = 'the best'
-
-            } else if (jogos == 'Dino Crises') {
-                document.write('Bom também!!!')
-
-            } else if (jogos == 'Resident Evil 5') { 
-                document.write('jogo ruim')
-            } else {
-                document.write('fala um jogo aeeee')
-            } 
-    </script>
+</div>
 </body>
 </html>
