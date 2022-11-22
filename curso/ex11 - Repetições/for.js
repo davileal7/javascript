@@ -1,9 +1,10 @@
-for(var c = 1; c <=4; c++){
-    console.log(c)
+for(var i = 0; i <=4; i++) {
+    console.log(i)
 }
 
 console.log('FIM')
 
+//estilo python
 let nome = ['Davi']
 for ( posição in nome ) {
     console.log(`${posição} tem ${nome}`)
