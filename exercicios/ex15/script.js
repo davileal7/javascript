@@ -55,6 +55,8 @@ function finalizar () {
                 menor = valores[pos]
         }
         media = soma / total        
+        
+        //print na tela
         res.innerHTML = ''
         res.innerHTML += `<p>Ao todo, temos ${total} números cadastrados.</p>`
         res.innerHTML += `<p>O maior valor é ${maior}</p>`

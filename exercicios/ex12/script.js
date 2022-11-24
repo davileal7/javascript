@@ -3,13 +3,14 @@ function verificar() {
     var ano = data.getFullYear()
     var forano = document.getElementById('txtano')
     var res = document.querySelector('div#res')
+    // caso não preencha
     if (forano.value.length == 0 || forano.value > ano) {
         window.alert('[ERRO] Verifique os dados e tente novamente!')
     } else {
         var forsexo = document.getElementsByName('radsex')
         var idade = ano - Number(forano.value)
         var gênero = ''
-        var img = document.createElement('img')//criando foto em JS
+        var img = document.createElement('img')//criando imagem em JS
         if (forsexo[0].checked) {
             gênero = 'Homem'
             if (idade >=0 && idade < 10) {
@@ -38,7 +39,7 @@ function verificar() {
         }
         res.style.textAllign = 'center' //texto centralizado em JS
         res.innerHTML = `Detectamos ${gênero} com ${idade} anos.`
-        res.appendChild(img)
+        res.appendChild(img)  //adciona img
         
     }
 

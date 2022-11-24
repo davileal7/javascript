@@ -4,7 +4,6 @@ var v = function(x) {
 
 console.log(v(5))
 
-
 function fatorial(n) {
     var fat = 1
     for (c = n; c > 1; c --) {

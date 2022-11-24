@@ -1,8 +1,8 @@
-function parimp(n) {
+function par_ou_imp(n){
     if (n % 2 == 0) {
-        return 'par'
+         return 'par'
     } else {
-        return'impar'
+        return 'impar'
     }
 }
-console.log(parimp(10))
+console.log(par_ou_imp(10))
