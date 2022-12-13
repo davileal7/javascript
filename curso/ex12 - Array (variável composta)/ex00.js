@@ -1,5 +1,5 @@
 //1° modo MAP
-//passar por cada item deo seu array e retorna alguma coisa em cada um deles
+//passar por cada item do seu array e retorna alguma coisa em cada um deles
 let meuArray = [1,2,3,4,5]
 let novoArray = meuArray.map((item) => {
     return item *2

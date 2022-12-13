@@ -1,6 +1,6 @@
 let frutas = [1,"Abacaxi",2,"Laranja",3,"Limão"]
 
-frutas.length          //quantidade de itens no array
+frutas.length          //comprimento de itens no array
 frutas.unshift(0,"Maça") //adiciona no inicio
 frutas.push(4,"Uva")     //adiciona no final uva
 //frutas.pop()         //remove o ultimo item

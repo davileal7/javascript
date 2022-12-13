@@ -17,6 +17,18 @@ console.log('REPETIÇÕES, For')
 console.log('Vai começar...')
 
 
+let index = 0
+const array = [1,2,3,4,]
+
+while (index < array.length) {
+    console.log(array[index])
+    index++
+    
+}
+
+console.log(index)
+
+
 
 
 
