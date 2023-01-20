@@ -13,13 +13,13 @@ if (hora >= 0 && hora < 12) {
 
 } else if (hora >= 12 && hora < 18) {
     //Boa Tarde
-    msg.innerHTML = `Agora são ${hora}:${min}horas, Boa tarde!`
+    msg.innerHTML = `Agora são ${hora}:${min} horas, Boa tarde!`
     img.src = 'imagens/tarde.png'
     document.body.style.background = 'rgb(143, 185, 233)'
 
 } else {
     //Boa Noite
-    msg.innerHTML = `Agora são ${hora}:${min} - Boa noite!`
+    msg.innerHTML = `Agora são ${hora}:${min}, Boa noite!`
     img.src = 'imagens/noite.png'
     document.body.style.background = 'black'
 
