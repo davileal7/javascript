@@ -6,3 +6,17 @@ function par_ou_imp(n){
     }
 }
 console.log(par_ou_imp(10))
+
+
+function dizerNome(nome) {
+    console.log(`o nome é ${nome}`)   
+}
+
+dizerNome("Davi")
+
+
+function primeiraFunção() {
+    console.log("Hello world")
+}
+
+primeiraFunção()

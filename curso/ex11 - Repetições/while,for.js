@@ -1,4 +1,3 @@
-console.log('estrutura de repetições')
 
 var c = 1
 while (c <= 3){
@@ -28,7 +27,17 @@ while (index < array.length) {
 
 console.log(index)
 
+//Break
+var x = 10;
+while (x < 100) {
+   
+    x += 10
 
+if (x === 50 || x == 30) {
+    console.log('CONTINUE')
+    continue;
+}
 
+console.log("Testando continue " + x)
 
-
+}
