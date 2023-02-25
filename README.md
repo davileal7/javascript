@@ -1,2 +1,4 @@
 # javascript
- curso de JS que faço no curso em vídeo.
+ Cursos de JS, : 
+    Curso em Vídeo (Gustavo Gunabara)
+    Hora de Codar (Matheus Batisti)
