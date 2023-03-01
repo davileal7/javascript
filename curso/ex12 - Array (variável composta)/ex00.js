@@ -49,3 +49,14 @@ console.log(novoArray6)
 let meuArray7 = [1, 2, 3, 4, 5]
 let novoArray7 = meuArray7.reverse()
 console.log(novoArray7)
+
+// SPLICE
+var num = [1,2,3,4,5]
+num.splice(2,0,999) //adicionar
+num.splice(4, 1) //remover elemento
+console.log(num)
+
+// INDEX OF
+console.log(num.indexOf(2))
+
+//

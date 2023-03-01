@@ -6,6 +6,7 @@ console.log(teste)
 var objeto = {
     nome: "Davi",
     idade: 36,
+
     falar: function () {
         console.log("Oiiiii")
     },
@@ -13,7 +14,10 @@ var objeto = {
         this.idade += 1
     },
     saudacao: function () {
-         return "Oi, tudo bem? " + this.nome
+         console.log("Oi, tudo bem? " + this.nome)
+    },
+    hobby: function () {
+        return "Video Game"
     }
 };
 
@@ -23,4 +27,8 @@ console.log(objeto.idade)
 
 var sdc = objeto.saudacao()
 
-console.log("Olá " + sdc)
+objeto.falar()
+
+var lazer = objeto.hobby()
+
+console.log("Este é meu hobby: " + lazer)
