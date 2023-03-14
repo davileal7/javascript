@@ -13,6 +13,7 @@ console.log(typeof objeto)
 let jogos = {
     game: "Resident Evil 7",
     video_game: "Ps4",
+    
     genero: function() {
         console.log("Terror")
     },
