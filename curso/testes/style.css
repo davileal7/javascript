@@ -1,34 +1,24 @@
-body {
+main {
     color: white;
-    width: 95vw;   /*View Widht*/
-    height: 110vh; /*View Height*/
-    background-image: url('ps.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
+    display: flex;
+
     
-
 }
-/*#container {
-    color: white;
-    width: 100vw;
-    height: 100vh;
-    background: url('ps.jpg');
-    background-size: cover;
-}*/
-
-div#res {
-    text-align: center;
-    background-color: red;
+#item1 {
+    height: 100px;
     width: 300px;
-    border-radius: 5px;
-    
+    margin: 10px;
+    background-color: blue;
 }
-a {
-    color: white;
-    text-decoration: none;
+#item2 {
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    background-color: red;
 }
-div#link {
-    background-color: rgb(69, 174, 69);
-    width: 80px;
+#item3 {
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    background-color:black;
 }
