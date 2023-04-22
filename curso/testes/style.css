@@ -14,11 +14,22 @@ main {
     height: 100px;
     width: 300px;
     margin: 10px;
-    background-color: red;
+    background-color: yellow;
 }
 #item3 {
     height: 100px;
     width: 300px;
     margin: 10px;
     background-color:black;
+}
+
+button {
+    background-color: burlywood;
+    margin: 10px;
+}
+
+#imagem img {
+    height: 400px;
+    width: 500px;
+
 }
