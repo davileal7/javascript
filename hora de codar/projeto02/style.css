@@ -1,0 +1,13 @@
+:root {
+    --color-primary: #6d63ff;
+    --sidebar-width: 140px;
+    --menu-height: 140px;
+}
+
+nav > a {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    height: 60px;
+    padding: 0 10px 0 0;
+}
