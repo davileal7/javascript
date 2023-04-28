@@ -21,6 +21,7 @@ console.log(itensQuery)
 //var texto = document.createTextNode("Texto que foi trocado")
 //elemento.appendChild(texto)
 //console.log(elemento)
+
 //var title = document.querySelector("#title")
 //var pai = title.parentNode;
 //pai.replaceChild(elemento, title)
