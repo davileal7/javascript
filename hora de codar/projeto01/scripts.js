@@ -44,7 +44,7 @@ function completeTask(task) {
 }
 
 
-const  addBTN = document.querySelector("#add-btn");
+const addBTN = document.querySelector("#add-btn");
 
 addBTN.addEventListener("click", function (e) {
    
