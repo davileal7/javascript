@@ -1,11 +1,12 @@
-var n = document.querySelector("#valor1")
-var res01 = document.querySelector(".res01")
-var res02 = document.querySelector(".res02")
-
-function enter() {
-    if (n.value >= 10) {
-        res01.innerHTML = "MAIOR"
-    }  else {
-        res02.innerHTML = "menorr"
+function find_max(nums) {
+    let max_num = Number.NEGATIVE_INFINITY
+    for (let num of nums) {
+        if (num > max_num) {
+            max_num += 1
+        }
     }
+    return max_num;
+    console.log(find_max)
 }
+
+console.log(find_max)
